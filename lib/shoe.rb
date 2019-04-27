@@ -5,6 +5,7 @@ class Shoe
   
   BRANDS = []
   uniq_brands = []
+  
   def initialize(brand)
     @brand = brand
     unqi_brands << brand
