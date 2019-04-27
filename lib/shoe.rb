@@ -19,6 +19,6 @@ class Shoe
   end
   
   def uniq_brand
-    @brand = BRANDS.uniq!
+    BRANDS.uniq!{|b| b.brand}
   end
 end
