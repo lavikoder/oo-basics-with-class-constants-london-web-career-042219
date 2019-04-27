@@ -12,7 +12,6 @@ class Shoe
   
   def cobble
     if @condition == "new"
-      
     else
       @condition = "new" 
     end
