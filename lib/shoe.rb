@@ -17,8 +17,4 @@ class Shoe
     end
     puts "Your shoe is as good as new!"
   end
-  
-  def uniq_brand
-    BRANDS.uniq!{|b| b.brand}
-  end
 end
