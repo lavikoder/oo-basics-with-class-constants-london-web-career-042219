@@ -18,5 +18,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  
+  def uniq_brand
+    brand = brand.uniq
+  end
 end
