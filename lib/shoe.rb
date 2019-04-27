@@ -21,5 +21,4 @@ class Shoe
   def uniq_brand
     brand = brand.uniq
   end
-  
 end
