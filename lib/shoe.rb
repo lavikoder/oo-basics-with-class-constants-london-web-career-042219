@@ -7,7 +7,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS << uniq_brands.uniq
+    BRANDS << brands.uniq
   end
   
   def cobble
