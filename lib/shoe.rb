@@ -12,10 +12,8 @@ class Shoe
   
   def cobble
     if @condition == "new"
-      
     else
       @condition = "new" 
-      puts "Your shoe is as good as new!"
     end
     puts "Your shoe is as good as new!"
   end
